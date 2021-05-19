@@ -1,5 +1,5 @@
 import React from 'react';
 
-const Appointment = () => <div>Ashley</div>;
+const Appointment = ({ customer }) => <div>{customer.firstName}</div>;
 
 export default Appointment;
